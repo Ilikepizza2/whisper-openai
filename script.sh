@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Define available models and their corresponding GitHub repos & Hugging Face models
-declare -A MODELS
-MODELS["whisper"]="https://github.com/Ilikepizza2/whisper-openai.git"
-
 START_COMMAND="python api-server.py"
 
 
